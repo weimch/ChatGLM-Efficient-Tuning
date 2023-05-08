@@ -14,6 +14,9 @@ from utils import (
     Seq2SeqTrainerForChatGLM
 )
 
+import os
+# 防止追踪
+os.environ["WANDB_DISABLED"] = "true"
 
 def main():
 

@@ -385,7 +385,8 @@ def preprocess_data(
 
     def format_example(examples): # support question with a single answer or multiple answers
         for i in range(len(examples["prompt"])):
-            if examples["prompt"][i] and examples["response"][i]:
+            # allow more custom
+            if examples["prompt"][i]:
                 query, answer = examples["prompt"][i], examples["response"][i]
                 if examples["query"][i]:
                     query += examples["query"][i]
