@@ -101,10 +101,10 @@
     "mine": {
       "file_name": "mine.json",
       "columns": {
-        "prompt": "prompt",
-        "query": "query",
-        "response": "response",
-        "history": "history"
+        "prompt": "problem",
+        "query": "",
+        "response": "answer",
+        "history": ""
       }
     }
 }
